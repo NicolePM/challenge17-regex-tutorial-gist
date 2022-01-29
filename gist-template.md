@@ -24,12 +24,12 @@ When a user is filling out a form, and an email address is required, it would be
 As stated previously in the summary section, regex can be employed in real world examples.  Here is a piece of code that validates user input:
 
 *******************************************************************
-let user_email = 'user001@email.com'
-const regex = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-const validate_email = user_email.match(regex);
+- let user_email = 'user001@email.com'
+- const regex = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+- const validate_email = user_email.match(regex);
 
-console.log(found);
-// expected output: ["user001@email.com", "user001", "email", "com"]
+- console.log(found);
+- // expected output: ["user001@email.com", "user001", "email", "com"]
 *******************************************************************
 
 ### Components
